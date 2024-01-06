@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="card-internal-container">
         <h1>Developers Joke</h1>
         <div class="accordion-list">
             <AccordionComponent/>
@@ -15,7 +15,7 @@ import AccordionComponent from './AccordionComponent.vue';
 
 <style scoped>
 
-div{
+.card-internal-container{
     background: #fff;
     padding:30px;
     width: 600px;
