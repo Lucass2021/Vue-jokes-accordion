@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="custom-container">
     <div class="bg-img-container">
       <img class="bg-img" src="./assets/background-pattern-desktop.svg" alt="">
     </div>
@@ -26,7 +26,7 @@ body{
   background: #F9EEFF;
 }
 
-.container {
+.custom-container {
   display: flex;
   flex-direction: column;
   align-items: center;

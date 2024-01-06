@@ -1,10 +1,15 @@
 <template>
     <div>
         <h1>Developers Joke</h1>
+        <div class="accordion-list">
+            <AccordionComponent/>
+        </div>
     </div>
 </template>
 
 <script setup>
+import AccordionComponent from './AccordionComponent.vue';
+
 
 </script>
 
@@ -21,6 +26,7 @@ div{
 div h1{
     font-size: 40px;
     text-align: center;
+    font-weight: 700;
 }
 
 </style>
