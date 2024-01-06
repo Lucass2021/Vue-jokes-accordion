@@ -45,4 +45,14 @@ body{
   width:100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .bg-img-container{
+    height: 400px;
+    overflow: hidden;
+  }
+  .bg-img{
+    width:auto;
+  }
+}
+
 </style>
